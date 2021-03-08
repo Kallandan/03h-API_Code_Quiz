@@ -1,10 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Web API Code Quiz</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./Assets/css/style.css">
 </head>
+
 <body>
-    
+    <header>
+        <nav>
+            <a href="#">View Current Highscores</a>
+        </nav>
+
+        <div class="timer">
+            Time: <span id="timer-count">0</span>
+        </div>
+    </header>
+
+    <main id="content">
+        <h1>Coding Quiz Challenge</h1>
+        <p>
+            Time to test your knowledge on Coding fundamentals! Try to answer the following code-related questions within the time limit. <br> 
+            Keep in mind that incorrect answers will penalize your time by ten seconds!
+        </p>
+
+        <button id="start-button" type="button" class="btn btn-lg btn-primary">
+            Click Me to Start
+        </button>
+    </main>
+
+    <script src="./Assets/js/script.js"></script>
 </body>
 </html>

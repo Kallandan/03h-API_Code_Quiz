@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #d0abdf;
+   font-family: 'Khand', sans-serif;
+}
+
+header {
+   font-family: 'Khand', sans-serif;
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+p {
+    text-align: center;
+}
+
+li {
+    font-weight: bold;
+}
