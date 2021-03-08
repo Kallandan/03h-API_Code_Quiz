@@ -2,6 +2,41 @@
     box-sizing: border-box;
 }
 
+#answer-btn {
+    margin: 4px;
+    background: #895ae0 ;
+    color: black;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #a873d4;
+    border-color: #a873d4;
+}
+
+.hide {
+    display: none;
+}
+
+.high-score-title {
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: large;
+}
+
+.question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px;
+}
+
+.timer {
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
 a {
     color: black;
 
